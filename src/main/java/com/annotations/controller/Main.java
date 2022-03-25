@@ -1,14 +1,15 @@
-/*package com.springapp.restProject;
+package com.annotations.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class RestProjectApplication {
+@SpringBootApplication 
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestProjectApplication.class, args);
+
+		SpringApplication.run(Main.class, args);
+		System.out.println("App started");
 	}
 
 }
-*/
